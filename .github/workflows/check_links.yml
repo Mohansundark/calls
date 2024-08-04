@@ -2,7 +2,7 @@ name: Check Links
 
 on:
   schedule:
-    - cron: "*/3 * * * *" # Runs every 30 minutes
+    - cron: "*/15 * * * *" # Runs every 30 minutes
   workflow_dispatch: # Allows manual trigger
 
 jobs:
