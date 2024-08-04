@@ -14,7 +14,7 @@
     <p>Last check: <span id="last-check"></span></p>
     <script>
       fetch(
-        "https://api.github.com/repos/YOUR_USERNAME/YOUR_REPO_NAME/actions/runs?status=completed&event=schedule"
+        "https://api.github.com/repos/Mohansundark/calls/actions/runs?status=completed&event=schedule"
       )
         .then((response) => response.json())
         .then((data) => {
